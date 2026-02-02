@@ -1,70 +1,145 @@
-# Getting Started with Create React App
+# 🚀 Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, fully responsive **personal portfolio website** built with **React.js**, designed to showcase my projects, skills, resume, and experience in a clean and professional way.
 
-## Available Scripts
+This portfolio highlights my work in **Web Development, Machine Learning, Computer Vision, and Full-Stack Development**, with a dynamic project modal system and a polished dark UI.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ⚡ Modern dark-themed UI
+- 📱 Fully responsive (desktop, tablet, mobile)
+- 🧩 Modular and reusable React components
+- 🔍 Dynamic project modal (no routing required)
+- 🗂️ Project filtering by category (Web, React, ML, DL, CV, Data Analytics)
+- 📄 Resume download functionality
+- 🔗 Social links (GitHub, LinkedIn, YouTube, Instagram)
+- 🎯 Smooth navigation (Home, Projects, About, Contact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3 (Custom dark theme, glassmorphism UI)
 
-### `npm run build`
+### Tools & Platforms
+- Git & GitHub
+- VS Code
+- Node.js & npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+portfolio/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── profile.jpg
+├── src/
+│   ├── App.js
+│   ├── ProjectModal.js
+│   ├── index.js
+│   ├── index.css
+│   └── assets/
+│       └── Akhilesh_Nuthalapati_FullStack_Resume.pdf
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📌 Featured Projects
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This portfolio showcases multiple real-world and academic projects, including:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Personal Portfolio Website** (React, Custom UI)
+- **Face Recognition Attendance System** (Python, OpenCV, MySQL, Tkinter)
+- **Parkinson’s Disease Detection System** (Machine Learning, Streamlit)
+- **Multiple Disease Prediction System**
+- **Profile Management App** (React + REST API)
+- **OCR Text Recognition System**
+- **Real-Time Object Detection System (YOLOv5)**
+- **Data Analysis & Preprocessing Projects**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Each project includes:
+- Project summary
+- How it works
+- Key features
+- Tech stack
+- Algorithms used
+- Challenges solved
+- GitHub repository and Live Demo links (where available)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ▶️ Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
+- Node.js (v16 or later recommended)
+- npm
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone the repository:
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/YOUR_USERNAME/portfolio.git
+cd portfolio
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies:
 
-### Making a Progressive Web App
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Run the development server:
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The application will be available at:
 
-### Deployment
+```
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🌐 Live Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👉 *(Add your deployed link here)*  
+Example:
+```
+https://your-portfolio.vercel.app
+```
+
+---
+
+## 👤 Author
+
+**Akhilesh Nuthalapati**  
+- 💻 Full-Stack Developer | Python | React | Machine Learning | Computer Vision  
+- 📧 Email: akhileshnuthalapati7@gmail.com  
+- 🐙 GitHub: https://github.com/akhileshnuth  
+- 🔗 LinkedIn: https://linkedin.com/in/akhilesh-nuthalapati-9130b9227  
+
+---
+
+## 📜 License
+
+This project is open-source and available for learning, inspiration, and personal portfolio creation.  
+Feel free to fork and customize it for your own use.
+
+---
+
+⭐ If you like this portfolio, consider giving the repository a star!
