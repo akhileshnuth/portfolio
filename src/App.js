@@ -60,9 +60,9 @@ const projectDetails = {
     title: "Parkinson's Disease Detection",
     subtitle: "Machine Learning • Streamlit • Health AI",
     summary:
-      "An academic project that predicts Parkinson’s disease from biomedical voice measurements with a Streamlit-based UI.",
+      "An academic project that predicts Parkinson's disease from biomedical voice measurements with a Streamlit-based UI.",
     howItWorks:
-      "The dataset features are processed, scaled and passed through ML models like SVM/Logistic Regression to classify Parkinson’s presence. A Streamlit interface allows users to input values and view predictions.",
+      "The dataset features are processed, scaled and passed through ML models like SVM/Logistic Regression to classify Parkinson's presence. A Streamlit interface allows users to input values and view predictions.",
     features: [
       "Clinical dataset preprocessing",
       "Feature extraction",
@@ -73,7 +73,7 @@ const projectDetails = {
     techStack: "Python, Streamlit, ML Algorithms, Pandas, NumPy",
     algorithm: "SVM, Logistic Regression (from your project PDF).",
     usefulness:
-      "Helps in early-stage detection of Parkinson’s, reducing incorrect diagnoses, with an easy-to-use web interface.",
+      "Helps in early-stage detection of Parkinson's, reducing incorrect diagnoses, with an easy-to-use web interface.",
     challenges: [
       "Handling imbalanced dataset",
       "Selecting meaningful biomedical features",
@@ -81,14 +81,13 @@ const projectDetails = {
     ],
     github: "https://github.com/akhileshnuth/parkinsons-disease-prediction",
     liveDemo: "https://parkinsons-disease-prediction-cro438tn2ubd2okdqyr7hz.streamlit.app/",
-
   },
 
   multiDisease: {
     title: "Multiple Disease Prediction System",
     subtitle: "Machine Learning • Streamlit • Health Analytics",
     summary:
-      "A system to predict multiple diseases like Diabetes, Heart disease, and Parkinson’s using ML models with a Streamlit front-end.",
+      "A system to predict multiple diseases like Diabetes, Heart disease, and Parkinson's using ML models with a Streamlit front-end.",
     howItWorks:
       "Each disease has its own dataset and ML model. Inputs are given through Streamlit forms, processed through trained classifiers, and real-time predictions are shown on the dashboard.",
     features: [
@@ -105,55 +104,6 @@ const projectDetails = {
       "Balancing different datasets",
       "Creating unified UI for multiple models",
       "Maintaining prediction accuracy",
-    ],
-    github: "https://github.com/akhileshnuth",
-  },
-
-  profileApp: {
-    title: "Profile Management App",
-    subtitle: "React • REST API • CRUD",
-    summary:
-      "A complete profile management system with CRUD operations and backend API integration.",
-    howItWorks:
-      "React UI sends profile data to backend API routes. Responses update UI state, allowing add/edit/delete operations.",
-    features: [
-      "Add, edit, delete user profiles",
-      "Fully functional API integration",
-      "Modern React UI",
-      "Form validations",
-    ],
-    techStack: "React.js, REST API, Axios",
-    algorithm: "No ML — frontend + API focused system.",
-    usefulness: "Useful for managing employee/user profiles in any system.",
-    challenges: [
-      "Syncing UI state with API",
-      "Error handling in API responses",
-      "Form validation and UI consistency",
-    ],
-    github: "https://github.com/akhileshnuth/profile-management-app",
-    liveDemo: "https://profile-management-app-two.vercel.app/",
-  },
-
-  ocr: {
-    title: "OCR Text Recognition",
-    subtitle: "OpenCV • Tesseract • Deep Learning",
-    summary:
-      "Extracts text from images using OpenCV preprocessing and deep-learning-backed OCR.",
-    howItWorks:
-      "Image is preprocessed (grayscale, thresholding, noise removal) and then passed to an OCR engine to detect and extract text from regions of interest.",
-    features: [
-      "Reads text from documents/images",
-      "Noise removal",
-      "Region-of-interest extraction",
-      "High-quality preprocessing",
-    ],
-    techStack: "Python, OpenCV, Deep Learning / OCR",
-    algorithm: "Deep-learning OCR pipeline with OpenCV preprocessing.",
-    usefulness: "Useful for digitizing text, scanning documents or IDs.",
-    challenges: [
-      "Handling low-light images",
-      "Noise and blur correction",
-      "Improving OCR accuracy",
     ],
     github: "https://github.com/akhileshnuth",
   },
@@ -206,6 +156,144 @@ const projectDetails = {
     ],
     github: "https://github.com/akhileshnuth",
   },
+
+  // ── NEW PROJECTS ──────────────────────────────────────────────────
+
+  navodayanFoods: {
+    title: "Navodayan Foods Website",
+    subtitle: "HTML • CSS • JavaScript • Business",
+    summary:
+      "Developed a fully functional business website for Navodayan Foods, focusing on clean UI, product presentation, and responsive design.",
+    howItWorks:
+      "A static business website that highlights product offerings, company details, and provides a seamless user experience across all devices.",
+    features: [
+      "Responsive and modern UI",
+      "Business-focused layout",
+      "Optimized for performance and accessibility",
+      "Product showcase section",
+      "Clean navigation and structure",
+    ],
+    techStack: "HTML, CSS, JavaScript",
+    algorithm: "No ML — focused on UI/UX and business presentation.",
+    usefulness:
+      "Provides Navodayan Foods a professional online presence to reach customers and present their products effectively.",
+    challenges: [
+      "Ensuring cross-device responsiveness",
+      "Clean product layout design",
+      "Performance and accessibility optimization",
+    ],
+    github: "https://gitlab.com/rahulteja1/navodayan-foods",
+    liveDemo: "https://navodayanfoods.com/",
+  },
+
+  deepseekMistral: {
+    title: "DeepSeek + Mistral API Integration",
+    subtitle: "Python • LLM APIs • AI Integration",
+    summary:
+      "Built an AI integration system combining DeepSeek and Mistral APIs to enable advanced LLM-based responses and processing.",
+    howItWorks:
+      "The system orchestrates multiple LLM APIs, routing requests and combining outputs to enable richer AI-powered responses and multi-model interaction.",
+    features: [
+      "Multi-LLM integration",
+      "API-based architecture",
+      "Scalable design for AI workflows",
+      "DeepSeek + Mistral model support",
+    ],
+    techStack: "Python, DeepSeek API, Mistral API",
+    algorithm: "Multi-model LLM orchestration and API chaining.",
+    usefulness:
+      "Demonstrates how to combine multiple AI models for more capable and flexible AI-powered applications.",
+    challenges: [
+      "Handling different API response formats",
+      "Orchestrating multi-model workflows",
+      "Managing latency across API calls",
+    ],
+    github: "https://github.com/akhileshnuth/DEEPSEEK-MISTRAL-API-Integration",
+  },
+
+  crewai: {
+    title: "Current Affairs Multi-Agent System",
+    subtitle: "Python • CrewAI • Firecrawl • GPT-4o-mini",
+    summary:
+      "A two-agent AI pipeline that searches the web for today's top news and delivers a clean, structured Markdown briefing — powered by CrewAI with Firecrawl for research and GPT-4o-mini for summarization.",
+    howItWorks:
+      "A Researcher agent uses Firecrawl to search multiple credible sources (Reuters, BBC, Bloomberg, etc.) for the top 5 current affairs stories from today. It hands structured data — headline, source, key facts, and category — to a Summarizer agent, which formats everything into a polished Markdown briefing with summaries, significance, and a Quick Digest section. The two agents run sequentially via CrewAI.",
+    features: [
+      "Two specialized agents: Researcher + Summarizer",
+      "Firecrawl-powered live web search",
+      "Top 5 stories with headlines, sources & key facts",
+      "Structured Markdown output with category tags",
+      "Quick Digest section with daily themes & geographies",
+      "Custom query support (topic-specific or date-specific)",
+      "Prioritizes credible sources: Reuters, AP, BBC, Bloomberg",
+    ],
+    techStack: "Python, CrewAI, Firecrawl API, OpenAI GPT-4o-mini, python-dotenv",
+    algorithm:
+      "Sequential multi-agent pipeline — Researcher collects structured news data, Summarizer formats it into a Markdown briefing using context passed between tasks.",
+    usefulness:
+      "Generates a fully sourced, neutral, structured daily news briefing in 1–3 minutes — useful for staying informed without manually scanning multiple news sites.",
+    challenges: [
+      "Ensuring only today's stories are returned, not outdated news",
+      "Diverse topic coverage by running varied search queries",
+      "Preventing fabrication — summarizer is strictly constrained to researcher output",
+    ],
+    github: "https://github.com/akhileshnuth/Current-affairs-crewai",
+  },
+
+  cricketBooking: {
+    title: "Cricket Net Booking System",
+    subtitle: "Django • Python • SQLite • Tailwind CSS",
+    summary:
+      "A production-ready Django-based cricket net booking platform built for a real client, with user authentication, scheduling, and an admin dashboard.",
+    howItWorks:
+      "Users log in and book available cricket nets for weekends only. The system auto-assigns Net A or Net B, prevents duplicate bookings, and provides real-time AJAX availability checks.",
+    features: [
+      "Weekend-only booking calendar",
+      "Auto net assignment (Net A → Net B)",
+      "Duplicate booking prevention",
+      "Real-time AJAX availability check",
+      "Booking cancellation from dashboard",
+      "Full Django admin panel",
+      "Mobile responsive UI",
+    ],
+    techStack: "Django, Python, SQLite, Tailwind CSS, Flatpickr, JavaScript",
+    algorithm: "Sequential net assignment with unique constraint validation.",
+    usefulness:
+      "Eliminates manual booking coordination for cricket ground management, deployed live for real client usage.",
+    challenges: [
+      "Preventing race conditions in net assignment",
+      "Calendar UI restricted to weekends only",
+      "Building real-time availability without page reload",
+    ],
+    github: "https://github.com/akhileshnuth",
+    liveDemo: "https://cricketbooking.k3sol.com/login/?next=/dashboard/",
+  },
+
+  lexGlobal: {
+    title: "Lex Global Business Website",
+    subtitle: "HTML • CSS • JavaScript • Corporate",
+    summary:
+      "Created a professional static website for Lex Global, focusing on branding, clarity, and structured content delivery.",
+    howItWorks:
+      "A clean corporate website built with static web technologies, optimized for fast loading, SEO, and professional brand presentation.",
+    features: [
+      "Clean corporate design",
+      "Fast-loading static pages",
+      "SEO-friendly structure",
+      "Responsive layout",
+    ],
+    techStack: "HTML, CSS, JavaScript",
+    algorithm: "No ML — static site focused on design and performance.",
+    usefulness:
+      "Provides Lex Global a professional digital presence with clear content structure for business clients.",
+    challenges: [
+      "Matching corporate branding requirements",
+      "Ensuring cross-browser compatibility",
+      "SEO and performance optimization",
+    ],
+    github: "https://github.com/akhileshnuth",
+    liveDemo: "https://lexglobal.solutions/",
+  },
 };
 
 /* ================== PROJECT LIST WITH CATEGORIES ================== */
@@ -243,22 +331,6 @@ const projects = [
     category: "ML",
   },
   {
-    key: "profileApp",
-    name: "Profile Management App",
-    tech: "React, REST API",
-    desc: "Profile management with full API integration.",
-    url: "https://profile-management-app-two.vercel.app/",
-    category: "Web",
-  },
-  {
-    key: "ocr",
-    name: "OCR Text Recognition",
-    tech: "Deep Learning, Python",
-    desc: "Extracts text from images using deep learning & OpenCV.",
-    url: "https://github.com/akhileshnuth",
-    category: "DL",
-  },
-  {
     key: "objectDetection",
     name: "Real-Time Object Detection",
     tech: "Python, YOLOv5, OpenCV",
@@ -273,6 +345,47 @@ const projects = [
     desc: "Data cleaning, preprocessing and visual insights.",
     url: "https://github.com/akhileshnuth",
     category: "Data / Analytics",
+  },
+  // ── NEW PROJECTS ──────────────────────────────────────────────────
+  {
+    key: "navodayanFoods",
+    name: "Navodayan Foods Website",
+    tech: "HTML, CSS, JavaScript",
+    desc: "Business website with product showcase and responsive design.",
+    url: "https://navodayanfoods.com/",
+    category: "Web",
+  },
+  {
+    key: "deepseekMistral",
+    name: "DeepSeek + Mistral API Integration",
+    tech: "Python, LLM APIs",
+    desc: "Multi-model AI integration combining DeepSeek and Mistral.",
+    url: "https://github.com/akhileshnuth/DEEPSEEK-MISTRAL-API-Integration",
+    category: "AI",
+  },
+  {
+    key: "crewai",
+    name: "Current Affairs Multi-Agent System",
+    tech: "Python, CrewAI, LLM APIs",
+    desc: "Multi-agent system to fetch and summarize real-time current affairs.",
+    url: "https://github.com/akhileshnuth/Current-affairs-crewai",
+    category: "AI",
+  },
+  {
+    key: "cricketBooking",
+    name: "Cricket Net Booking System",
+    tech: "Django, Python, SQLite, Tailwind CSS",
+    desc: "Production cricket net booking platform with auth and admin panel.",
+    url: "https://cricketbooking.k3sol.com/login/?next=/dashboard/",
+    category: "Web",
+  },
+  {
+    key: "lexGlobal",
+    name: "Lex Global Business Website",
+    tech: "HTML, CSS, JavaScript",
+    desc: "Professional corporate website with SEO-friendly structure.",
+    url: "https://lexglobal.solutions/",
+    category: "Web",
   },
 ];
 
@@ -326,7 +439,7 @@ const App = () => {
 
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = resumePDF; // imported file URL
+    link.href = resumePDF;
     link.download = "Akhilesh_Nuthalapati_FullStack_Resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -350,7 +463,7 @@ const App = () => {
 
           <div className="header-right">
             <nav className="nav">
-              {["home", "projects", "about", "contact"].map((item) => (
+              {["home", "projects", "experience", "about", "contact"].map((item) => (
                 <button
                   key={item}
                   className={`nav-item ${
@@ -398,7 +511,7 @@ const App = () => {
                 <div className="hero-highlight-row">
                   <div className="hero-highlight">💻 Python • React</div>
                   <div className="hero-highlight">🧠 ML • DL • YOLO</div>
-                  <div className="hero-highlight">🗄️ MySQL • MongoDB</div>
+                  <div className="hero-highlight">Python Django Full-Stack</div>
                 </div>
               )}
 
@@ -431,7 +544,7 @@ const App = () => {
                       ✨ Want to collaborate, work on exciting projects, or
                       connect for opportunities?{" "}
                       <span className="flash-highlight">
-                        Let’s connect & build something amazing!
+                        Let's connect & build something amazing!
                       </span>
                     </p>
 
@@ -484,6 +597,8 @@ const App = () => {
                 />
               )}
 
+              {activeSection === "experience" && <ExperienceSection />}
+
               {activeSection === "about" && <AboutSection />}
 
               {activeSection === "contact" && (
@@ -506,12 +621,12 @@ const App = () => {
                 <div className="profile-meta">
                   <div className="profile-name">Akhilesh Nuthalapati</div>
                   <div className="profile-role">
-                    Full-stack & ML Developer, Computer Vision Enthusiast.
+                    Full-stack & ML Developer, AI Enthusiast.
                   </div>
 
                   <div className="profile-tags-row">
                     <span className="profile-tag">
-                      Available for Internship
+                      Available for Freelance & Collaborations
                     </span>
                     <span className="profile-tag">Open to Full-time</span>
                   </div>
@@ -586,6 +701,12 @@ const App = () => {
                 </button>
                 <button
                   className="footer-link"
+                  onClick={() => handleNavClick("experience")}
+                >
+                  Experience
+                </button>
+                <button
+                  className="footer-link"
                   onClick={() => handleNavClick("about")}
                 >
                   About
@@ -646,8 +767,8 @@ const App = () => {
 const ProjectsSection = ({ openLink, openProjectModal }) => {
   const [filter, setFilter] = useState("All");
 
-  // Separate ML, DL, CV + React filter
-  const categories = ["All", "Web", "React", "ML", "DL", "CV", "Data / Analytics"];
+  // Added "AI" to categories for new projects
+  const categories = ["All", "Web", "React", "ML", "DL", "CV", "AI", "Data / Analytics"];
 
   let filteredProjects = projects;
   if (
@@ -655,6 +776,7 @@ const ProjectsSection = ({ openLink, openProjectModal }) => {
     filter === "ML" ||
     filter === "DL" ||
     filter === "CV" ||
+    filter === "AI" ||
     filter === "Data / Analytics"
   ) {
     filteredProjects = projects.filter((p) => p.category === filter);
@@ -709,6 +831,46 @@ const ProjectsSection = ({ openLink, openProjectModal }) => {
   );
 };
 
+const ExperienceSection = () => (
+  <div className="content">
+    <h3 className="section-title">Experience</h3>
+
+    <div className="two-col-grid">
+      <div className="info-card">
+        <div className="info-label">💼 Full Stack Developer</div>
+        <p className="info-text" style={{ color: "var(--accent)", marginBottom: "4px", fontSize: "12px" }}>
+          K3sol S.R.L ROMANIA &nbsp;•&nbsp; Jan 2025 – Present
+        </p>
+        <p className="info-text">
+          Working on real-world web applications and AI-based systems, contributing to both frontend and backend development.
+        </p>
+        <p className="info-text" style={{ marginTop: "6px" }}>
+          • Developed and deployed web applications using Django and modern frontend tools<br />
+          • Built AI-powered systems using APIs and multi-agent architectures<br />
+          • Worked on client-based projects and production deployments<br />
+          • Collaborated on debugging, optimization, and feature enhancements
+        </p>
+      </div>
+
+      <div className="info-card">
+        <div className="info-label">🧑‍💻 Freelance AI Developer</div>
+        <p className="info-text" style={{ color: "var(--accent)", marginBottom: "4px", fontSize: "12px" }}>
+          Self-Employed &nbsp;•&nbsp; 2026 JAN – Present
+        </p>
+        <p className="info-text">
+          Delivered multiple client projects including business websites and web applications, focusing on performance, usability, and real-world requirements.
+        </p>
+        <p className="info-text" style={{ marginTop: "6px" }}>
+          • Designed and developed responsive websites<br />
+          • Delivered client-based solutions (booking systems, business sites)<br />
+          • Managed deployment and hosting<br />
+          • Handled end-to-end project lifecycle
+        </p>
+      </div>
+    </div>
+  </div>
+);
+
 const AboutSection = () => (
   <div className="content">
     <h3 className="section-title">About Me</h3>
@@ -728,12 +890,12 @@ const AboutSection = () => (
       <div className="chips-row">
         <span className="chip">Python</span>
         <span className="chip">React.js</span>
-        <span className="chip">Node.js (Basics)</span>
+        <span className="chip">Python Django</span>
         <span className="chip">Machine Learning</span>
         <span className="chip">Deep Learning</span>
-        <span className="chip">OpenCV</span>
+        <span className="chip">API's</span>
         <span className="chip">MySQL</span>
-        <span className="chip">MongoDB</span>
+        <span className="chip">Playwright Automation Testing</span>
         <span className="chip">Git & GitHub</span>
       </div>
     </div>
@@ -764,7 +926,7 @@ const ContactSection = ({ openLink }) => (
     <h3 className="section-title">Contact Me</h3>
     <p className="section-text">
       Whether it's a job opportunity, internship, freelance project, or
-      collaboration — I’m always happy to connect.
+      collaboration — I'm always happy to connect.
     </p>
 
     <div className="contact-grid">
