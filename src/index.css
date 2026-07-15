@@ -974,9 +974,9 @@ body.dark-theme {
 
   .profile-image {
     height: auto;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 3 / 4;
     object-fit: cover;
-    object-position: center top;
+    object-position: center 15%;
   }
 
   /* Hero title slightly smaller */
@@ -1087,8 +1087,10 @@ body.dark-theme {
   }
 
   .profile-image {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 3 / 4;
     height: auto;
+    object-fit: cover;
+    object-position: center 15%;
   }
 
   .page {
@@ -1106,10 +1108,6 @@ body.dark-theme {
 
   .hero-subtitle {
     font-size: 15px;
-  }
-
-  .profile-image {
-    height: 220px;
   }
 
   /* Buttons go full width on very small screens */
