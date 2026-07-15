@@ -974,9 +974,8 @@ body.dark-theme {
 
   .profile-image {
     height: auto;
-    aspect-ratio: 3 / 4;
-    object-fit: cover;
-    object-position: center 15%;
+    aspect-ratio: 9 / 16;
+    object-fit: contain;
   }
 
   /* Hero title slightly smaller */
@@ -1087,10 +1086,9 @@ body.dark-theme {
   }
 
   .profile-image {
-    aspect-ratio: 3 / 4;
+    aspect-ratio: 9 / 16;
     height: auto;
-    object-fit: cover;
-    object-position: center 15%;
+    object-fit: contain;
   }
 
   .page {
