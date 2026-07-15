@@ -1108,7 +1108,7 @@ body.dark-theme {
     font-size: 15px;
   }
 
-  /* Buttons go full width on very small screens */
+  /* Buttons go full width on very small  */
   .home-actions {
     flex-direction: column;
   }
