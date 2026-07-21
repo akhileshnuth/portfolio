@@ -839,7 +839,7 @@ const ExperienceSection = () => (
       <div className="info-card">
         <div className="info-label">💼 Full Stack Developer</div>
         <p className="info-text" style={{ color: "var(--accent)", marginBottom: "4px", fontSize: "12px" }}>
-          K3sol S.R.L ROMANIA &nbsp;•&nbsp; Jan 2025 – Present
+          K3sol S.R.L ROMANIA &nbsp;•&nbsp; Jan 2026 – Present
         </p>
         <p className="info-text">
           Working on real-world web applications and AI-based systems, contributing to both frontend and backend development.
